@@ -1,10 +1,13 @@
 T=int(input())
 
-hosu = 0
-book = []
+
+
 answer=[]
 for a in range(T):
     H,W,N= map(int,input().split())
+    book=[]
+    
+    hosu = 0
     for i in range(1,W+1):
 
         for j in range(1,H+1):
@@ -13,6 +16,11 @@ for a in range(T):
 
     answer.append(book[N-1])
 
-print(answer)
+for k in range(T):
+    print(answer[k])
 
-#서석현님께 여쭤보자
+
+
+
+
+#굳굳
