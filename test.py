@@ -1,4 +1,6 @@
-y = "abab"
-k = y.index("a")
-print(k)
-p= y[4]
+a = []
+
+for i in range(10):
+    a.append(i)
+
+print(a)
