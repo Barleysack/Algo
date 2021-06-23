@@ -6,10 +6,13 @@ Fanswer=[]
 
     #1978을 재활용하자. 
 
-
-for p in range(a,b):
+#이야 며칠을 끌었는데 b+1 이거 한개 다른거였다니
+#세상에 맙소사
+for p in range(a,b+1):
+   
     if p== 2:
         count= count +1
+        Fanswer.append(2)
         continue
 
    
